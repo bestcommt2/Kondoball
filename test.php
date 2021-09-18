@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<MPD xmlns="(null)" type="static" ID="test.m3u8" mediaPresentationDuration="PT00H00M14.00S" minBufferTime="PT00H00M1.50S">
+<MPD xmlns="(http://aya-streamer2.cdn.3bbtv.com:8080/3bb/live/101/101.mpd)" type="static" ID="test.m3u8" mediaPresentationDuration="PT00H00M14.00S" minBufferTime="PT00H00M1.50S">
  <ProgramInformation moreInformationURL="http://gpac.sourceforge.net">
   <Title>test.m3u8</Title>
   <Source>Generated from URL test.m3u8</Source>
