@@ -1,0 +1,3 @@
+[program:channel]
+autorestart=true
+command=/usr/local/ffmpeg/bin/ffmpeg -re -hide_banner -headers 'Referer: https://example.com/' -i https://stream.webm.mpd -c:v libx264 -preset ultrafast -tune zerolatency -c:a aac -b:a 128k -f hls -hls_time 4 -hls_flags append_list+delete_segments -hls_list_size 6 -hls_segment_filename '/etc/nginx/hls/channel/file%%03d.ts' /etc/nginx/hls/channel/playlist.m3u8
